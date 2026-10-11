@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eSocial sem correria: o que precisa estar organizado na folha | Blog KM Consultoria</title>
+    <meta name="description" content="Cadastros, eventos e prazos trabalhistas dependem de uma rotina bem definida para reduzir correções e pendências.">
+    <link rel="canonical" href="https://www.kmconsultoria.com.br/blog-esocial-o-que-organizar-na-folha-digital.html">
+    <meta property="og:title" content="eSocial sem correria: o que precisa estar organizado na folha | Blog KM Consultoria">
+    <meta property="og:description" content="Cadastros, eventos e prazos trabalhistas dependem de uma rotina bem definida para reduzir correções e pendências.">
+    <meta property="og:url" content="https://www.kmconsultoria.com.br/blog-esocial-o-que-organizar-na-folha-digital.html">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="KM Consultoria">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Redes Sociais -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Schema Markup (dados estruturados) -->
+
+    <!-- Tailwind CSS -->
+    <link rel="icon" type="image/png" href="images/img001.webp">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- GSAP for Smooth Transitions -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans selection:bg-brand-gold selection:text-brand-dark overflow-x-hidden" data-page="blog-esocial-o-que-organizar-na-folha-digital">
+
+    <!-- MAIN HEADER WITH GLASSMORPHISM AND DROP-DOWNS -->
+    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 px-4 py-3 lg:px-8">
+        <div class="header-inner max-w-7xl mx-auto rounded-2xl px-6 py-4 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="index.html" onclick="navigateTo('inicio')" class="flex items-center group">
+                <img src="images/img001.webp" alt="Logo KM Consultoria - Escritório de Contabilidade em Brodowski SP" class="header-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div style="display:none;" class="items-center gap-3">
+                    <div class="relative w-10 h-10 flex items-center justify-between rounded-xl bg-gradient-to-br from-brand-gold to-yellow-600 shadow-lg">
+                        <span class="text-white font-extrabold text-sm w-full text-center">KM</span>
+                    </div>
+                    <div>
+                        <span class="font-extrabold tracking-wider text-lg lg:text-xl block text-slate-900">KM CONSULTORIA</span>
+                        <span class="text-[9px] text-slate-500 tracking-widest block uppercase font-bold">Contabilidade Empresarial</span>
+                    </div>
+                </div>
+            </a>
+
+            
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex items-center gap-8">
+                <a href="index.html" onclick="navigateTo('inicio')" class="nav-link text-sm font-semibold tracking-wide text-slate-600 hover:text-brand-gold transition-colors duration-300" data-page="inicio">Início</a>
+                <a href="quem-somos.html" onclick="navigateTo('quem-somos')" class="nav-link text-sm font-semibold tracking-wide text-slate-600 hover:text-brand-gold transition-colors duration-300" data-page="quem-somos">Quem Somos</a>
+                <a href="servicos.html" onclick="navigateTo('servicos')" class="nav-link text-sm font-semibold tracking-wide text-slate-600 hover:text-brand-gold transition-colors duration-300" data-page="servicos">Serviços</a>
+
+                <div class="espnav-wrap">
+                    <a href="#" onclick="return false;" class="nav-link espnav-trigger text-sm font-semibold tracking-wide text-slate-600 hover:text-brand-gold transition-colors duration-300 flex items-center gap-1.5" data-page="especialidades">
+                        Especialidades <i class="fa-solid fa-chevron-down text-[10px]"></i>
+                    </a>
+                    <div class="espnav-menu">
+                        <div class="espnav-col">
+                            <span class="espnav-col-title">Segmentos</span>
+                            <a href="especialidade-prestadores.html" onclick="navigateTo('esp-prestadores')" class="espnav-item"><i class="fa-solid fa-handshake"></i><span><strong>Prestadores de Serviços</strong><small>Soluções contábeis e tributárias para empresas prestadoras de serviços.</small></span></a>
+                            <a href="especialidade-comercio.html" onclick="navigateTo('esp-comercio')" class="espnav-item"><i class="fa-solid fa-shop"></i><span><strong>Comércio</strong><small>Organização fiscal e financeira para empresas comerciais.</small></span></a>
+                            <a href="especialidade-industria.html" onclick="navigateTo('esp-industria')" class="espnav-item"><i class="fa-solid fa-industry"></i><span><strong>Indústria</strong><small>Acompanhamento contábil voltado às particularidades industriais.</small></span></a>
+                            <a href="especialidade-liberais.html" onclick="navigateTo('esp-liberais')" class="espnav-item"><i class="fa-solid fa-user-tie"></i><span><strong>Profissionais Liberais</strong><small>Orientação tributária para quem atua de forma autônoma.</small></span></a>
+                            <a href="especialidade-clinicas.html" onclick="navigateTo('esp-clinicas')" class="espnav-item"><i class="fa-solid fa-briefcase-medical"></i><span><strong>Clínicas e Consultórios</strong><small>Suporte contábil para profissionais e empresas da saúde.</small></span></a>
+                            <a href="especialidade-ecommerce.html" onclick="navigateTo('esp-ecommerce')" class="espnav-item"><i class="fa-solid fa-cart-shopping"></i><span><strong>E-commerce</strong><small>Acompanhamento fiscal para lojas virtuais e marketplaces.</small></span></a>
+                        </div>
+                        <div class="espnav-col">
+                            <span class="espnav-col-title">Soluções Estratégicas</span>
+                            <a href="especialidade-abertura.html" onclick="navigateTo('esp-abertura')" class="espnav-item"><i class="fa-solid fa-rocket"></i><span><strong>Abertura de Empresa Facilitada</strong><small>Todo o processo de abertura do CNPJ com orientação contábil.</small></span></a>
+                            <a href="especialidade-reforma.html" onclick="navigateTo('esp-reforma')" class="espnav-item"><i class="fa-solid fa-arrows-rotate"></i><span><strong>Consultoria para Reforma Tributária</strong><small>Preparação estratégica para as mudanças do IBS e da CBS.</small></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="blog.html" onclick="navigateTo('blog')" class="nav-link text-sm font-semibold tracking-wide text-slate-600 hover:text-brand-gold transition-colors duration-300" data-page="blog">Blog</a>
+                <a href="contato.html" onclick="navigateTo('contato')" class="nav-link text-sm font-semibold tracking-wide text-slate-600 hover:text-brand-gold transition-colors duration-300" data-page="contato">Contato</a>
+            </nav>
+
+            
+
+            <!-- Call to Action Head Buttons -->
+            <div class="hidden lg:flex items-center gap-4">
+                <a href="https://wa.me/5516974058132?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="px-6 py-2.5 rounded-full bg-brand-dark text-white hover:bg-brand-gold hover:text-brand-dark font-bold text-sm tracking-wide transition-all duration-300 flex items-center gap-2 shadow-lg">
+                    <i class="fa-regular fa-comment-dots text-base"></i> Orçamento
+                </a>
+            </div>
+
+            <!-- Mobile Menu Icon Button -->
+            <button id="mobile-menu-btn" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 border border-slate-200 text-slate-800 focus:outline-none" aria-label="Menu principal">
+                <i class="fa-solid fa-bars text-lg"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Menu Overlay -->
+        <div id="mobile-menu" class="hidden absolute top-full left-4 right-4 mt-2 bg-white rounded-2xl border border-slate-200 p-6 shadow-2xl flex flex-col gap-4 z-50">
+            <a href="index.html" onclick="navigateTo('inicio')" class="mobile-nav-link text-base font-semibold py-2 border-b border-slate-100 text-slate-800">Início</a>
+            <a href="quem-somos.html" onclick="navigateTo('quem-somos')" class="mobile-nav-link text-base font-semibold py-2 border-b border-slate-100 text-slate-800">Quem Somos</a>
+            <a href="servicos.html" onclick="navigateTo('servicos')" class="mobile-nav-link text-base font-semibold py-2 border-b border-slate-100 text-slate-800">Serviços</a>
+
+            <div class="border-b border-slate-100">
+                <button type="button" onclick="espMobileToggle()" class="text-base font-semibold py-2 text-slate-800 w-full flex items-center justify-between">
+                    Especialidades <i class="fa-solid fa-chevron-down text-xs transition-transform duration-250" id="espMobileChevron"></i>
+                </button>
+                <div class="espnav-mobile-panel hidden pb-3" id="espMobilePanel">
+                    <a href="especialidade-prestadores.html" onclick="navigateTo('esp-prestadores')" class="espnav-mobile-item"><i class="fa-solid fa-handshake"></i> Prestadores de Serviços</a>
+                    <a href="especialidade-comercio.html" onclick="navigateTo('esp-comercio')" class="espnav-mobile-item"><i class="fa-solid fa-shop"></i> Comércio</a>
+                    <a href="especialidade-industria.html" onclick="navigateTo('esp-industria')" class="espnav-mobile-item"><i class="fa-solid fa-industry"></i> Indústria</a>
+                    <a href="especialidade-liberais.html" onclick="navigateTo('esp-liberais')" class="espnav-mobile-item"><i class="fa-solid fa-user-tie"></i> Profissionais Liberais</a>
+                    <a href="especialidade-clinicas.html" onclick="navigateTo('esp-clinicas')" class="espnav-mobile-item"><i class="fa-solid fa-briefcase-medical"></i> Clínicas e Consultórios</a>
+                    <a href="especialidade-ecommerce.html" onclick="navigateTo('esp-ecommerce')" class="espnav-mobile-item"><i class="fa-solid fa-cart-shopping"></i> E-commerce</a>
+                    <a href="especialidade-abertura.html" onclick="navigateTo('esp-abertura')" class="espnav-mobile-item"><i class="fa-solid fa-rocket"></i> Abertura de Empresa Facilitada</a>
+                    <a href="especialidade-reforma.html" onclick="navigateTo('esp-reforma')" class="espnav-mobile-item"><i class="fa-solid fa-arrows-rotate"></i> Consultoria para Reforma Tributária</a>
+                </div>
+            </div>
+
+            <a href="blog.html" onclick="navigateTo('blog')" class="mobile-nav-link text-base font-semibold py-2 border-b border-slate-100 text-slate-800">Blog</a>
+            <a href="contato.html" onclick="navigateTo('contato')" class="mobile-nav-link text-base font-semibold py-2 border-b border-slate-100 text-slate-800">Contato</a>
+
+            <a href="https://wa.me/5516974058132" target="_blank" rel="noopener noreferrer" class="w-full text-center py-3 bg-brand-gold hover:bg-brand-goldHover text-brand-dark font-extrabold rounded-xl text-sm transition-all duration-300 mt-2 flex items-center justify-center gap-2">
+                <i class="fa-brands fa-whatsapp text-lg"></i> Falar no WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- FLOATING CHAT WHATSAPP BUTTON -->
+    <a href="https://wa.me/5516974058132?text=Ol%C3%A1%2C%20KM Consultoria!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-emerald-500 hover:bg-emerald-400 text-white rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 group" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        <span class="absolute right-full mr-3 bg-brand-card text-xs font-bold px-3 py-1.5 rounded-lg border border-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">Chame no WhatsApp</span>
+    </a>
+
+    <!-- MAIN VIEWS WRAPPER -->
+    <main class="relative z-10 pt-28 lg:pt-36 pb-16 min-h-screen px-4 lg:px-8">
+<section id="blog-esocial-o-que-organizar-na-folha-digital" class="page-content active max-w-7xl mx-auto flex flex-col gap-0 min-h-[60vh]" data-blog-slug="esocial-o-que-organizar-na-folha-digital"><div class="blog-article-hero"><div class="blog-article-hero__inner"><span class="blog-article-hero__cat">Gestão Empresarial</span><h1 class="blog-article-hero__title">eSocial sem correria: o que precisa estar organizado na folha</h1><div class="blog-meta-row"><span><i class="fa-regular fa-calendar"></i> Março de 2027</span><span><i class="fa-regular fa-clock"></i> 9 minutos</span></div><div class="blog-article-hero__breadcrumb"><a href="index.html" onclick="navigateTo('inicio')">Início</a><span class="sep">|</span><a href="blog.html" onclick="navigateTo('blog')">Blog</a><span class="sep">|</span><span>eSocial sem correria: o que precisa estar organizado na folha</span></div></div></div><div class="blog-article-body"><div class="blog-article-body__inner blog-article-rich"><p>O eSocial reuniu diversas obrigações trabalhistas, previdenciárias e fiscais em um único sistema digital, mudando a forma como as empresas registram e transmitem informações sobre seus empregados.</p><p>Manter a folha digital organizada não é apenas uma questão de cumprir prazos: erros ou inconsistências no eSocial podem gerar multas e problemas trabalhistas para a empresa.</p><p>Neste artigo, você entende o que é o eSocial, quais informações ele reúne e como manter essa rotina organizada no dia a dia da empresa.</p><nav class="legal-toc" aria-label="Índice do artigo"><p class="legal-toc__title">Índice</p><ol><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s1'); return false;">1. O que é o eSocial?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s2'); return false;">2. Por que o eSocial foi criado?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s3'); return false;">3. Quais informações trabalhistas o eSocial reúne?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s4'); return false;">4. Como funciona o envio de eventos ao eSocial?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s5'); return false;">5. Quais prazos a empresa precisa cumprir?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s6'); return false;">6. Como admissões e desligamentos são registrados?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s7'); return false;">7. Qual o papel da folha de pagamento nesse processo?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s8'); return false;">8. Quais erros mais comuns no eSocial?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s9'); return false;">9. Quais consequências de inconsistências na folha digital?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s10'); return false;">10. Como manter os dados trabalhistas organizados?</a></li><li><a href="#" onclick="legalScrollTo('esocial-o-que-organizar-na-folha-digital-s11'); return false;">11. Como a KM Consultoria cuida do eSocial dos clientes?</a></li></ol></nav><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s1"><h2>1. O que é o eSocial?</h2><p>O eSocial é o sistema do governo que unifica o envio de informações trabalhistas, previdenciárias e fiscais relacionadas aos empregados de uma empresa, substituindo diversas obrigações que antes eram entregues separadamente.</p><p>Ele é obrigatório para praticamente todas as empresas com empregados, independentemente do porte ou regime tributário.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s2"><h2>2. Por que o eSocial foi criado?</h2><p>O objetivo do eSocial é simplificar e padronizar o envio de informações trabalhistas ao governo, reduzindo a quantidade de obrigações acessórias e aumentando a qualidade e a integração dos dados entre diferentes órgãos.</p><p>Com isso, informações que antes eram enviadas de forma isolada passaram a integrar um único sistema, com prazos e regras específicas.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s3"><h2>3. Quais informações trabalhistas o eSocial reúne?</h2><ul><li>Admissões e desligamentos</li><li>Folha de pagamento</li><li>Férias e afastamentos</li><li>Acidentes de trabalho</li><li>Informações previdenciárias e do FGTS</li></ul></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s4"><h2>4. Como funciona o envio de eventos ao eSocial?</h2><p>As informações são enviadas em formato de eventos, cada um relacionado a um tipo de informação, como admissão, alteração contratual, afastamento ou desligamento de um empregado.</p><p>Esses eventos seguem uma ordem lógica e dependem de informações cadastrais previamente registradas, o que reforça a importância de manter os dados sempre atualizados.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s5"><h2>5. Quais prazos a empresa precisa cumprir?</h2><p>Cada tipo de evento no eSocial possui um prazo próprio de envio, que pode variar desde o momento da ocorrência do fato até o fechamento da folha de pagamento do período.</p><p>O não cumprimento desses prazos pode gerar multas e outras penalidades para a empresa.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s6"><h2>6. Como admissões e desligamentos são registrados?</h2><p>Admissões precisam ser registradas no eSocial antes do início efetivo das atividades do empregado, com todas as informações contratuais e cadastrais necessárias.</p><p>Desligamentos também seguem prazos específicos, exigindo atenção especial para não gerar problemas trabalhistas ou previdenciários.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s7"><h2>7. Qual o papel da folha de pagamento nesse processo?</h2><p>A folha de pagamento é um dos principais eventos periódicos do eSocial, reunindo informações sobre salários, descontos, encargos e demais valores pagos aos empregados.</p><p>Erros na folha podem impactar diretamente outras obrigações relacionadas, como o FGTS e as contribuições previdenciárias.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s8"><h2>8. Quais erros mais comuns no eSocial?</h2><ul><li>Cadastros de empregados desatualizados</li><li>Envio de eventos fora do prazo estabelecido</li><li>Inconsistência entre a folha de pagamento e os eventos enviados</li><li>Falta de registro correto de afastamentos e férias</li><li>Divergências entre informações trabalhistas e previdenciárias</li></ul></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s9"><h2>9. Quais consequências de inconsistências na folha digital?</h2><p>Erros ou atrasos no eSocial podem gerar multas, questionamentos em fiscalizações trabalhistas e previdenciárias, além de impactar diretamente os direitos dos empregados, como FGTS e benefícios previdenciários.</p><p>Por isso, a rotina de folha e eSocial deve ser tratada com a mesma atenção dedicada às obrigações fiscais da empresa.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s10"><h2>10. Como manter os dados trabalhistas organizados?</h2><p>Manter cadastros de empregados sempre atualizados, revisar a folha antes do fechamento mensal e acompanhar os prazos de cada evento são práticas essenciais para uma rotina de eSocial organizada.</p><p>Contar com um sistema integrado entre folha de pagamento e eSocial também reduz o risco de divergências entre as informações enviadas.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s11"><h2>11. Como a KM Consultoria cuida do eSocial dos clientes?</h2><p>A KM Consultoria realiza admissões, folha de pagamento, férias, rescisões e obrigações relacionadas ao eSocial, buscando mais segurança trabalhista para a empresa.</p><p>Esse acompanhamento inclui a revisão periódica de cadastros e prazos, reduzindo o risco de inconsistências na folha digital dos clientes.</p></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s12"><h2>12. Perguntas frequentes sobre eSocial</h2><details class="esp-faq-item" name="faq-esocial-o-que-organizar-na-folha-digital"><summary>Toda empresa com empregados precisa usar o eSocial?</summary><p>Sim, o eSocial é obrigatório para praticamente todas as empresas com empregados, independentemente do porte ou regime tributário.</p></details><details class="esp-faq-item" name="faq-esocial-o-que-organizar-na-folha-digital"><summary>O eSocial substitui a folha de pagamento?</summary><p>Não. A folha de pagamento continua sendo elaborada pela empresa, mas suas informações são transmitidas ao governo por meio de eventos do eSocial.</p></details><details class="esp-faq-item" name="faq-esocial-o-que-organizar-na-folha-digital"><summary>O que acontece se um evento for enviado fora do prazo?</summary><p>O atraso pode gerar multas e outras penalidades, além de dificultar o cumprimento de obrigações relacionadas, como o recolhimento do FGTS.</p></details><details class="esp-faq-item" name="faq-esocial-o-que-organizar-na-folha-digital"><summary>MEI precisa enviar informações ao eSocial?</summary><p>Se o MEI tiver empregado registrado, ele também precisa cumprir as obrigações do eSocial relacionadas a esse vínculo.</p></details><details class="esp-faq-item" name="faq-esocial-o-que-organizar-na-folha-digital"><summary>Erros no eSocial afetam os direitos do empregado?</summary><p>Sim, inconsistências podem impactar diretamente benefícios como FGTS, INSS e outros direitos trabalhistas vinculados às informações enviadas.</p></details><details class="esp-faq-item" name="faq-esocial-o-que-organizar-na-folha-digital"><summary>É possível corrigir um evento já enviado ao eSocial?</summary><p>Em muitos casos sim, por meio de eventos de retificação, respeitando as regras e prazos específicos para cada tipo de correção.</p></details><details class="esp-faq-item" name="faq-esocial-o-que-organizar-na-folha-digital"><summary>Quais empresas costumam ter mais dificuldade com o eSocial?</summary><p>Empresas com alta rotatividade de funcionários ou com processos manuais de folha de pagamento tendem a enfrentar mais desafios na rotina do eSocial.</p></details><details class="esp-faq-item" name="faq-esocial-o-que-organizar-na-folha-digital"><summary>A KM Consultoria cuida do eSocial das empresas clientes?</summary><p>Sim, a KM Consultoria realiza admissões, folha de pagamento, férias, rescisões e obrigações relacionadas ao eSocial, buscando mais segurança trabalhista para a empresa.</p></details></div><div class="legal-section" id="esocial-o-que-organizar-na-folha-digital-s13"><h2>13. Uma folha digital organizada protege empresa e empregados</h2><p>O eSocial exige atenção constante da empresa, já que reúne informações trabalhistas essenciais tanto para o cumprimento de obrigações legais quanto para a proteção dos direitos dos empregados.</p><p>Manter cadastros atualizados, cumprir prazos e revisar a folha de pagamento antes de cada envio são práticas que evitam multas e problemas futuros.</p><p>A KM Consultoria cuida da rotina de eSocial dos clientes, contribuindo para uma gestão trabalhista mais segura e organizada.</p></div><div class="esp-cta-final"><h2>Organize o eSocial da sua empresa com a KM Consultoria</h2><p style="color:rgba(255,255,255,0.75); font-size:15px; max-width:480px; margin:-6px 0 0;">Fale com um especialista da KM Consultoria e cuide da folha de pagamento e do eSocial da sua empresa com mais segurança.</p><a href="https://wa.me/5516974058132?text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20com%20o%20eSocial%20da%20minha%20empresa." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Fale com um especialista</a></div></div></div><div class="blog-related"><div class="blog-related__inner"><h2 class="blog-related__title">Artigos relacionados</h2><div class="blog-related__grid"><div class="blog-card"><div class="blog-card-img"><img src="images2/img070.webp" alt="Fator R para serviços: por que folha e faturamento precisam andar juntos | Blog KM Consultoria" loading="lazy" data-label="Imagem do artigo — Fator R" onerror="blogImgFallback(this)" style="width:100%; height:100%; object-fit:cover; display:block;"></div><div class="blog-card-body"><span class="blog-card-cat">Segmentos</span><h3 class="blog-card-title">Fator R para serviços: por que folha e faturamento precisam andar juntos</h3><p class="blog-card-resumo">Entenda de forma simples como essa relação pode influenciar o enquadramento de algumas atividades no Simples Nacional.</p><span class="blog-card-date">Agosto de 2026</span><a class="blog-card-link" href="blog-fator-r-para-prestadores-de-servicos.html" onclick="navigateTo('blog-fator-r-para-prestadores-de-servicos'); return false;">Abrir conteúdo <i class="fa-solid fa-arrow-right"></i></a></div></div><div class="blog-card"><div class="blog-card-img"><img src="images2/img072.webp" alt="BPO Financeiro: o que muda quando o caixa ganha rotina | Blog KM Consultoria" loading="lazy" data-label="Imagem do artigo — BPO Financeiro" onerror="blogImgFallback(this)" style="width:100%; height:100%; object-fit:cover; display:block;"></div><div class="blog-card-body"><span class="blog-card-cat">Financeiro</span><h3 class="blog-card-title">BPO Financeiro: o que muda quando o caixa ganha rotina</h3><p class="blog-card-resumo">Contas, conciliações e vencimentos ficam mais fáceis de acompanhar quando o financeiro segue um processo definido.</p><span class="blog-card-date">Setembro de 2026</span><a class="blog-card-link" href="blog-bpo-financeiro-controle-empresarial.html" onclick="navigateTo('blog-bpo-financeiro-controle-empresarial'); return false;">Abrir conteúdo <i class="fa-solid fa-arrow-right"></i></a></div></div><div class="blog-card"><div class="blog-card-img"><img src="images2/img075.webp" alt="Contabilidade gerencial: quais números ajudam o empresário de verdade | Blog KM Consultoria" loading="lazy" data-label="Imagem do artigo — Contabilidade Gerencial" onerror="blogImgFallback(this)" style="width:100%; height:100%; object-fit:cover; display:block;"></div><div class="blog-card-body"><span class="blog-card-cat">Gestão Empresarial</span><h3 class="blog-card-title">Contabilidade gerencial: quais números ajudam o empresário de verdade</h3><p class="blog-card-resumo">Resultado, custos, margem e variações entre períodos podem transformar a contabilidade em uma fonte mais útil para a gestão.</p><span class="blog-card-date">Novembro de 2026</span><a class="blog-card-link" href="blog-contabilidade-gerencial-para-decisoes.html" onclick="navigateTo('blog-contabilidade-gerencial-para-decisoes'); return false;">Abrir conteúdo <i class="fa-solid fa-arrow-right"></i></a></div></div></div></div></div></section>
+<!-- ================= AVISO DE COOKIES (site-wide) ================= -->
+        
+
+        <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" hidden>
+            <div class="cookie-banner__text">
+                Utilizamos cookies necessários para o funcionamento do site. Saiba mais na <a onclick="navigateTo('legal-cookies')">Política de Cookies</a>.
+            </div>
+            <div class="cookie-banner__actions">
+                <button type="button" class="cookie-btn cookie-btn-accept" onclick="cookieAcceptAll()">Aceitar cookies</button>
+            </div>
+        </div>
+
+        
+
+        <!-- ================= PÁGINA: CONTATO ================= -->
+</main>
+
+    <!-- FOOTER WITH DETAILED COMPANY INFO -->
+    <footer class="relative z-10 border-t border-slate-200 bg-[#6B2F86] text-white pt-16 pb-8 px-4 lg:px-8 text-left">
+        <div class="fx-navy-host" style="position:absolute; inset:0; pointer-events:none; z-index:0; overflow:hidden;"></div>
+        <div class="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 mb-12">
+            <!-- Brand Column -->
+            <div class="md:col-span-4 flex flex-col gap-6">
+                <a href="index.html" onclick="navigateTo('inicio')" class="flex items-center gap-3">
+                    <div class="w-10 h-10 flex items-center justify-center rounded-xl bg-gradient-to-br from-brand-gold to-yellow-600 font-extrabold text-sm text-brand-dark">KM</div>
+                    <div>
+                        <span class="font-extrabold tracking-wider text-lg block text-white">KM CONSULTORIA</span>
+                        <span class="text-[9px] text-brand-muted tracking-widest block uppercase font-bold">Contabilidade Empresarial</span>
+                    </div>
+                </a>
+                <p class="text-slate-400 text-xs leading-relaxed max-w-sm">
+                    Contabilidade próxima, com rotina organizada, orientação clara e atenção às necessidades reais de cada empresa.
+                </p>
+                <div class="flex items-center gap-4 text-slate-400 text-lg">
+                    <a href="https://www.instagram.com/daianecristinatemponi/" target="_blank" rel="noopener noreferrer" class="hover:text-brand-gold transition-all duration-200" aria-label="Instagram da KM Consultoria"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/search/top?q=Daiane%20Temponi" target="_blank" rel="noopener noreferrer" class="hover:text-brand-gold transition-all duration-200" aria-label="Facebook - Daiane Temponi"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <!-- Fast Links -->
+            <div class="md:col-span-4 grid grid-cols-2 sm:grid-cols-3 gap-6">
+                <div>
+                    <h5 class="text-xs font-bold text-white uppercase tracking-widest mb-4">Navegação</h5>
+                    <ul class="flex flex-col gap-3 text-xs text-slate-400">
+                        <li><a href="index.html" onclick="navigateTo('inicio')" class="hover:text-brand-gold transition-all">Início</a></li>
+                        <li><a href="quem-somos.html" onclick="navigateTo('quem-somos')" class="hover:text-brand-gold transition-all">Quem Somos</a></li>
+                        <li><a href="index.html#servicos-destaque" onclick="navigateTo('inicio', 'servicos-destaque')" class="hover:text-brand-gold transition-all">Nossos Serviços</a></li>
+                        <li><a href="index.html#segmentos" onclick="navigateTo('inicio', 'segmentos')" class="hover:text-brand-gold transition-all">Segmentos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-xs font-bold text-white uppercase tracking-widest mb-4">Especialidades</h5>
+                    <ul class="flex flex-col gap-3 text-xs text-slate-400">
+                        <li><a href="#" onclick="window.open('https://wa.me/5516974058132?text=Quero%20saber%20mais%20sobre%20contabilidade%20para%20com%C3%A9rcio','_blank')" class="hover:text-brand-gold transition-all">Comércio</a></li>
+                        <li><a href="#" onclick="window.open('https://wa.me/5516974058132?text=Quero%20saber%20mais%20sobre%20contabilidade%20para%20ind%C3%BAstria','_blank')" class="hover:text-brand-gold transition-all">Indústrias</a></li>
+                        <li><a href="#" onclick="window.open('https://wa.me/5516974058132?text=Quero%20saber%20mais%20sobre%20contabilidade%20para%20prestadores%20de%20servi%C3%A7os','_blank')" class="hover:text-brand-gold transition-all">Prestadores de Serviços</a></li>
+                        <li><a href="#" onclick="window.open('https://wa.me/5516974058132?text=Quero%20saber%20mais%20sobre%20a%20Reforma%20Tribut%C3%A1ria','_blank')" class="hover:text-brand-gold transition-all">Reforma Tributária</a></li>
+                        <li><a href="#" onclick="window.open('https://wa.me/5516974058132?text=Quero%20abrir%20uma%20empresa%2C%20pode%20me%20ajudar%3F','_blank')" class="hover:text-brand-gold transition-all">Abertura de Empresas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-xs font-bold text-white uppercase tracking-widest mb-4">Legal</h5>
+                    <ul class="flex flex-col gap-[10px] text-xs text-slate-400">
+                        <li><a href="politica-de-privacidade.html" onclick="navigateTo('legal-privacidade')" class="hover:text-brand-gold hover:underline underline-offset-2 transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-gold rounded-sm">Política de Privacidade</a></li>
+                        <li><a href="politica-de-cookies.html" onclick="navigateTo('legal-cookies')" class="hover:text-brand-gold hover:underline underline-offset-2 transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-gold rounded-sm">Política de Cookies</a></li>
+                        <li><a href="termos-e-condicoes.html" onclick="navigateTo('legal-termos')" class="hover:text-brand-gold hover:underline underline-offset-2 transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-gold rounded-sm">Termos e Condições</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Corporate Info Column -->
+            <div class="md:col-span-4 flex flex-col gap-4 text-xs text-slate-400">
+                <h5 class="text-xs font-bold text-white uppercase tracking-widest mb-2">Atendimento e localização</h5>
+                <p class="leading-relaxed"><i class="fa-solid fa-location-dot text-brand-gold mr-2"></i> Rua João Carlos De Aguiar, 242, Vila Cristal, Brodowski - SP</p>
+                <p><i class="fa-brands fa-whatsapp text-brand-gold mr-2"></i> WhatsApp: (16) 97405-8132</p>
+                <p><i class="fa-solid fa-phone text-brand-gold mr-2"></i> Telefone: (16) 97405-8132</p>
+                <p><i class="fa-regular fa-clock text-brand-gold mr-2"></i> Seg. a Sex. das 09:00h às 18:00h (almoço 12:00h às 13:30h)</p>
+                <p><i class="fa-solid fa-envelope text-brand-gold mr-2"></i> <a href="mailto:kmconsultoria1924@gmail.com" class="hover:text-brand-gold transition-all">kmconsultoria1924@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-slate-500">
+            <p>© 2026 KM Consultoria. Todos os direitos reservados.</p>
+            <p>CNPJ: 53.338.175/0001-94 | Contabilidade clara, próxima e organizada</p>
+        </div>
+    </footer>
+
+
+    <!-- JAVASCRIPT LOGIC -->
+    
+
+    <!-- ============================================================ -->
+    <!-- EFEITO: elementos aparecem suavemente de baixo pra cima ao rolar a página -->
+    <!-- ============================================================ -->
+    
+    
+
+    <!-- ============================================================ -->
+    <!-- FUNDO ANIMADO 3D: partículas com profundidade nas seções azul-marinho -->
+    <!-- ============================================================ -->
+    
+    
+
+    <!-- ============================================================ -->
+    <!-- EFEITO 1: profundidade no scroll (parallax leve) nos elementos de fundo -->
+    <!-- ============================================================ -->
+    
+
+    <!-- ============================================================ -->
+    <!-- EFEITO 2: números/estatísticas subindo com leve rotação 3D ao aparecer na tela -->
+    <!-- ============================================================ -->
+    
+    
+
+    <script src="js/script-01.js"></script>
+    <script src="js/script-02.js"></script>
+    <script src="js/script-03.js"></script>
+    <script src="js/script-04.js"></script>
+    <script src="js/script-05.js"></script>
+    <script src="js/script-06.js"></script>
+    <script src="js/script-07.js"></script>
+    <script src="js/script-08.js"></script>
+    <script src="js/script-09.js"></script>
+    <script src="js/script-10.js"></script>
+    <script src="js/script-11.js"></script>
+    <script src="js/script-12.js"></script>
+    <script src="js/paginas.js"></script>
+</body>
+</html>
